@@ -12,6 +12,7 @@ namespace GE {
 
 		bool windowClose();
 		void windowEvent();
+	
 		void destory();
 
 	private:

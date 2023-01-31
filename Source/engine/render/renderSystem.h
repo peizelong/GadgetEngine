@@ -11,6 +11,7 @@ namespace GE {
 
 		void init(std::shared_ptr<windowSystem> windowSystem);
 		void tick();
+		void w();
 		void destory();
 	private:
 		std::shared_ptr<VulkanRHI> _RHI;
