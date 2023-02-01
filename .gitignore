@@ -2,7 +2,7 @@
 *.d
 /x64
 /.vs
-
+/bin
 # Compiled Object files
 *.slo
 *.lo
