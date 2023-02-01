@@ -2,4 +2,4 @@
 #include "log.h"
 
 
-#define VKRESULT(function)  if (function != VK_SUCCESS) { std::runtime_error( #function); } 
+#define VKRESULT(function)  if (function != VK_SUCCESS) { throw std::runtime_error( #function); } 

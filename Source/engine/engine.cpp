@@ -28,7 +28,7 @@ namespace GE {
 		    logicalTick();
 		    renderTick();
         }
-		_renderSystem->w();
+		_renderSystem->wait();
 	}
 
 	void Engine::destroy()
