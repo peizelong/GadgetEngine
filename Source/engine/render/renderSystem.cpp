@@ -54,7 +54,7 @@ namespace GE {
         vkQueuePresentKHR(_RHI->presentQueue, &presentInfo);
 
 	}
-    void renderSystem::wait()
+    void renderSystem::w()
     {
         vkDeviceWaitIdle(_RHI->device);
     }
